@@ -27,7 +27,7 @@ follow_ammount_number = 500
 follow_by_tags_list = ['bodybuilding', 'fitness', 'physique', 'freemasonry', 'freemasons']
 
 # Array List of comments to be used on posts.
-comments = ['@{}', 'δυνατό πολύ',':fire:', ':muscle:', ':wine_glass:', ':heart:', ':100:', ':ok_hand:', ':top:', ':heavy_check_mark:']
+comments = ['@{}', 'δυνατό πολύ', 'black_heart', ':fire:', ':muscle:', ':wine_glass:', ':heart:', ':100:', ':ok_hand:', ':top:', ':heavy_check_mark:']
 
 # Array List of Hashtags that the bot will check in order to find other people's posts and like them.
 hashtags_to_like_list = ['athlete', 'fitness', 'gym', 'workout', 'fit', 'training', 'bodybuilding', 'fitfam', 'fitgirl',
@@ -40,8 +40,8 @@ ignore_list = ['boy', 'girl', 'kid', 'kids']
 # Array List of Instagram Users with similar content to yours that you want to follow their followers in order to get followbacks.
 accounts_to_find_followers = ['mrolympiallc', 'unitedgrandlodgeofengland']
 
-# Array List of friends to Ignore. Will prevent commenting on and unfollowing your good friends (the images will still be liked).
-dont_include = ['friend1', 'friend2', 'friend3']
+# Array List of friends to Whitelist. It will prevent commenting on and unfollowing those friends no matter if they do not follow you back. (the images will still be liked).
+whitelisted_users = ['friend1', 'friend2', 'friend3']
 
 # Array List of Hashtags NOT to like. Will skip the picture if one of those are included on the picture's hashtags.
 dont_likes = ['sex','nude','naked','beef','pork','seafood',
@@ -102,7 +102,7 @@ story_by_users_list = ['mrolympiallc', 'unitedgrandlodgeofengland']
 #############################################################################################################################################################
 
 # Emoji / Comments to be combined as random pairs.
-comment = [random.choice(comments) + random.choice(comments)] 
+combined_comment = [random.choice(comments) + random.choice(comments)]
 
 # Get an InstaPy session.
 session = InstaPy(username=insta_username,
@@ -125,9 +125,9 @@ try:
                         min_followers=30,
                         min_following=30)
         session.set_do_comment(True, percentage=25)
-        session.set_comments(comment)
+        session.set_comments(comments)
         session.set_do_like(enabled=True, percentage=100)
-        session.set_dont_include(dont_include)
+        session.set_dont_include(whitelisted_users)
         session.set_dont_like(dont_likes)
         session.set_quota_supervisor(enabled=True, sleep_after=sleep_after_list, sleepyhead=True, stochastic_flow=True, notify_me=True,
                                     peak_likes_hourly=57,
