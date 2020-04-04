@@ -28,14 +28,8 @@ Implemented in Python using the Selenium module.<p>
   * [Guides and tutorials](#guides)
     * [Video tutorials](#video-tutorials)
     * [Written guides](#written-guides)
-- [Externals and additionals tools](#external-tools)
-  * [Dashboard](#dashboard)
-  * [Web Interface](#gui)
-- [Running InstaPy on Docker](#docker)
-- [Documentation of all Instapy's features](#documentation)
 - [Support](#support)
 - [Credits](#credits)
-- [Disclaimer](#disclaimer)
 
 ## **Installation**
 ```elm
@@ -54,34 +48,17 @@ If you're on Ubuntu, read the specific guide on [Installing on Ubuntu (64-Bit)](
 
 #### Running Instapy
 
-To run InstaPy, you'll need to run the **[quickstart](https://github.com/InstaPy/instapy-quickstart)** script you've just downloaded.
+To run InstaPy, you'll need to download and run the **[insta.py](https://github.com/FrozGR/InstaPY/archive/master.zip)** script that you can find in this repository.
 
-- [Here is the easiest **quickstart** script you can use](https://github.com/InstaPy/instapy-quickstart/blob/master/quickstart.py)  
-
-- [And here you can find lots of sophisticated **quickstart** templates shared by the community!](https://github.com/InstaPy/instapy-quickstart/tree/master/quickstart_templates) 
-
-You can put in your account details now by passing the username and password parameters to the `InstaPy()` function in your **quickstart** script, like so: 
-```python
-InstaPy(username="abcd", 
-        password="1234")
+You can put in your account details now by editing the configuration inside the Settings of your insta.py file.
 ```
-Or you can [pass them using the Command Line Interface (CLI)](./DOCUMENTATION.md#pass-arguments-by-cli).
-
-> If you've used _InstaPy_ before installing it by **pip**, you have to move your _old_ data to the new **workspace** folder for once.
-[Read how to do this here](./DOCUMENTATION.md#migrating-your-data-to-the-workspace-folder).
-
-Once you have your **quickstart** script configured you can execute the script with the following commands.
+Once you have your **insta.py** script configured you can execute the script with the following command.
 
 ```elm
-python quickstart.py
--- or
-python quickstart.py --username abcd --password 1234
+python insta.py
 ```
 
-InstaPy will now open a browser window and start working.
-
-> If want InstaPy to run in the background pass the `--headless-browser` option when running from the CLI   
-Or add the `headless_browser=True` parameter to the `InstaPy(headless_browser=True)` constructor.
+InstaPY will now start working.
 
 #### Updating InstaPy
 ```elm
@@ -118,8 +95,8 @@ If you should encounter any issue, please first [search for similar issues](http
 
 ## Credits
 
-### Community
-An active and supportive community is what every open-source project needs to sustain. Together we reached every continent and most of the countries in the world!   
-Thank you all for being part of the InstaPy community ✌️
+### Contributors
 
-![InstaPy reach](https://i.imgur.com/XkxHcM7r.png)
+This project exists thanks to all the people who contribute to timgrossmann's InstaPY. [[Contribute](https://github.com/timgrossmann/InstaPy/wiki/How-to-Contribute)].
+
+<a href="https://github.com/timgrossmann/InstaPy/graphs/contributors"><img src="https://opencollective.com/instapy/contributors.svg?width=890&button=false" /></a>

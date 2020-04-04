@@ -27,7 +27,7 @@ follow_ammount_number = 500
 follow_by_tags_list = ['bodybuilding', 'fitness', 'physique', 'freemasonry', 'freemasons']
 
 # Array List of comments to be used on posts.
-comments = ['@{}', 'δυνατό πολύ', 'black_heart', ':fire:', ':muscle:', ':wine_glass:', ':heart:', ':100:', ':ok_hand:', ':top:', ':heavy_check_mark:']
+comments = ['@{}', 'δυνατό πολύ', ':bowtie:', ':star2:', 'black_heart', ':fire:', ':muscle:', ':wine_glass:', ':heart:', ':100:', ':ok_hand:', ':top:', ':heavy_check_mark:']
 
 # Array List of Hashtags that the bot will check in order to find other people's posts and like them.
 hashtags_to_like_list = ['athlete', 'fitness', 'gym', 'workout', 'fit', 'training', 'bodybuilding', 'fitfam', 'fitgirl',
