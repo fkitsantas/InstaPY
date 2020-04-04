@@ -33,7 +33,7 @@ Implemented in Python using the Selenium module. Using the InstaPy API - Library
 
 # InstaPY Quickstart
 
-### Installation
+## **Installation**
 Using this repository, you will be able to install and use InstaPY with only very few steps.
 
 1. Download the zip of this repository by clicking on the green button in the upper right corner `Clone or download`.
@@ -45,7 +45,7 @@ Using this repository, you will be able to install and use InstaPY with only ver
 1. The last step is to open the _run folder_ and double click the file that suits your platform, e.g. _mac_start.command_ for MacOS. 
 
 
-## **Manual Installation**
+## Manual Installation
 ```elm
 pip install instapy
 ```
