@@ -1,8 +1,8 @@
 <p align="center">
   <img src="https://i.imgur.com/sJzfZsL.jpg" width="154">
-  <h1 align="center">InstaPy</h1>
+  <h1 align="center">InstaPY by KITSANTAS FOTIOS (Frozen) & Nightmare.gr v0.1</h1>
   <p align="center">Tooling that <b>automates</b> your social media interactions to “farm” Likes, Comments, and Followers on Instagram
-Implemented in Python using the Selenium module.<p>
+Implemented in Python using the Selenium module. Using the InstaPy API - Library from Tim Großmann (https://github.com/timgrossmann/InstaPy)<p>
   <p align="center">
     <a href="https://github.com/frozgr/InstaPY/blob/master/LICENSE">
       <img src="https://img.shields.io/badge/license-GPLv3-blue.svg" />
