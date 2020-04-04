@@ -1,2 +1,125 @@
-# InstaPY
-InstaPY by Projects @ Nightmare.gr
+<p align="center">
+  <img src="https://i.imgur.com/sJzfZsL.jpg" width="154">
+  <h1 align="center">InstaPy</h1>
+  <p align="center">Tooling that <b>automates</b> your social media interactions to “farm” Likes, Comments, and Followers on Instagram
+Implemented in Python using the Selenium module.<p>
+  <p align="center">
+    <a href="https://github.com/frozgr/InstaPY/blob/master/LICENSE">
+      <img src="https://img.shields.io/badge/license-GPLv3-blue.svg" />
+    </a>
+    <a href="https://github.com/SeleniumHQ/selenium">
+      <img src="https://img.shields.io/badge/built%20with-Selenium-yellow.svg" />
+    </a>
+    <a href="https://www.python.org/">
+    	<img src="https://img.shields.io/badge/built%20with-Python3-red.svg" />
+    </a>
+    <a href="https://travis-ci.org/timgrossmann/InstaPy">
+	<img src="https://travis-ci.org/timgrossmann/InstaPy.svg?branch=master">
+    </a>
+  </p>
+</p>
+
+
+## Table of contents
+- [How to install and run InstaPy](#installation)
+  * [Installing InstaPy](#installation)
+  * [Running Instapy](#running-instapy)
+  * [Updating InstaPy](#updating-instapy)
+  * [Guides and tutorials](#guides)
+    * [Video tutorials](#video-tutorials)
+    * [Written guides](#written-guides)
+- [Externals and additionals tools](#external-tools)
+  * [Dashboard](#dashboard)
+  * [Web Interface](#gui)
+- [Running InstaPy on Docker](#docker)
+- [Documentation of all Instapy's features](#documentation)
+- [Support](#support)
+- [Credits](#credits)
+- [Disclaimer](#disclaimer)
+
+## **Installation**
+```elm
+pip install instapy
+```
+__Important:__ depending on your system, make sure to use `pip3` and `python3` instead.
+
+
+**That's it! 🚀**   
+If you're on Ubuntu, read the specific guide on [Installing on Ubuntu (64-Bit)](https://github.com/InstaPy/instapy-docs/blob/master/How_Tos/How_To_DO_Ubuntu_on_Digital_Ocean.md). If you're on a Raspberry Pi, read the [Installing on RaspberryPi](https://github.com/InstaPy/instapy-docs/blob/master/How_Tos/How_to_Raspberry.md) guide instead.
+
+>If you would like to install a specific version of Instapy you may do so with:
+>```elm
+>pip install instapy==0.1.1
+>```
+
+#### Running Instapy
+
+To run InstaPy, you'll need to run the **[quickstart](https://github.com/InstaPy/instapy-quickstart)** script you've just downloaded.
+
+- [Here is the easiest **quickstart** script you can use](https://github.com/InstaPy/instapy-quickstart/blob/master/quickstart.py)  
+
+- [And here you can find lots of sophisticated **quickstart** templates shared by the community!](https://github.com/InstaPy/instapy-quickstart/tree/master/quickstart_templates) 
+
+You can put in your account details now by passing the username and password parameters to the `InstaPy()` function in your **quickstart** script, like so: 
+```python
+InstaPy(username="abcd", 
+        password="1234")
+```
+Or you can [pass them using the Command Line Interface (CLI)](./DOCUMENTATION.md#pass-arguments-by-cli).
+
+> If you've used _InstaPy_ before installing it by **pip**, you have to move your _old_ data to the new **workspace** folder for once.
+[Read how to do this here](./DOCUMENTATION.md#migrating-your-data-to-the-workspace-folder).
+
+Once you have your **quickstart** script configured you can execute the script with the following commands.
+
+```elm
+python quickstart.py
+-- or
+python quickstart.py --username abcd --password 1234
+```
+
+InstaPy will now open a browser window and start working.
+
+> If want InstaPy to run in the background pass the `--headless-browser` option when running from the CLI   
+Or add the `headless_browser=True` parameter to the `InstaPy(headless_browser=True)` constructor.
+
+#### Updating InstaPy
+```elm
+pip install instapy -U
+```
+
+
+## Guides
+
+#### Video tutorials:
+**[Official InstaPy Guide on Udemy](https://www.udemy.com/instapy-guide/?couponCode=INSTAPY_OFFICIAL)**
+
+**[Installation on Windows](https://www.youtube.com/watch?v=9DkEl2MrFQk&list=PLa4P1NPX9hthXV-wko0xyxFpbhYZFkW7o&index=11&t=40s)**
+
+**[Installation on MacOS](https://www.youtube.com/watch?v=TqQWM63Hhh4&t=11s&list=PLa4P1NPX9hthXV-wko0xyxFpbhYZFkW7o&index=12)**
+
+**[Installation on Linux](https://www.youtube.com/watch?v=sZ-SFy9vKHg&list=PLa4P1NPX9hthXV-wko0xyxFpbhYZFkW7o&index=10&t=28s)**
+
+**[Installation on DigitalOcean Server](https://www.youtube.com/watch?v=my0FM5hra_s&t=14s&list=PLa4P1NPX9hthXV-wko0xyxFpbhYZFkW7o&index=9)**
+
+#### Written Guides:
+**[How to Ubuntu (64-Bit)](https://github.com/InstaPy/instapy-docs/blob/master/How_Tos/How_To_DO_Ubuntu_on_Digital_Ocean.md) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**
+
+**[How to RaspberryPi](https://github.com/InstaPy/instapy-docs/blob/master/How_Tos/How_to_Raspberry.md) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**
+
+
+## Support
+
+### Do you need help?
+If you should encounter any issue, please first [search for similar issues](https://github.com/frozgr/InstaPY/issues).
+
+
+<br />
+
+## Credits
+
+### Community
+An active and supportive community is what every open-source project needs to sustain. Together we reached every continent and most of the countries in the world!   
+Thank you all for being part of the InstaPy community ✌️
+
+![InstaPy reach](https://i.imgur.com/XkxHcM7r.png)
