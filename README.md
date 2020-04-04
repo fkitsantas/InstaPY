@@ -22,16 +22,30 @@ Implemented in Python using the Selenium module.<p>
 
 ## Table of contents
 - [How to install and run InstaPy](#installation)
-  * [Installing InstaPy](#installation)
-  * [Running Instapy](#running-instapy)
-  * [Updating InstaPy](#updating-instapy)
+  * [Installing InstaPY](#installation)
+  * [Running InstaPY](#running-instapy)
+  * [Updating InstaPY](#updating-instapy)
   * [Guides and tutorials](#guides)
     * [Video tutorials](#video-tutorials)
     * [Written guides](#written-guides)
 - [Support](#support)
 - [Credits](#credits)
 
-## **Installation**
+# InstaPY Quickstart
+
+### Installation
+Using this repository, you will be able to install and use InstaPY with only very few steps.
+
+1. Download the zip of this repository by clicking on the green button in the upper right corner `Clone or download`.
+1. Unzip the folder and open the _installation folder_ .
+1. Double click the installation file for your system.
+1. If you missed any installation it will tell you what you have to install.
+1. Once successfully installed you can edit the insta.py file.
+1. Insert your username and password and modify anything you want.
+1. The last step is to open the _run folder_ and double click the file that suits your platform, e.g. _mac_start.command_ for MacOS. 
+
+
+## **Manual Installation**
 ```elm
 pip install instapy
 ```
