@@ -51,7 +51,7 @@ If you're on Ubuntu, read the specific guide on [Installing on Ubuntu (64-Bit)](
 To run InstaPy, you'll need to download and run the **[insta.py](https://github.com/FrozGR/InstaPY/archive/master.zip)** script that you can find in this repository.
 
 You can put in your account details now by editing the configuration inside the Settings of your insta.py file.
-```
+
 Once you have your **insta.py** script configured you can execute the script with the following command.
 
 ```elm
