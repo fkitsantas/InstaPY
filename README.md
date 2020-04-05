@@ -30,6 +30,7 @@ Implemented in Python using the Selenium module and having as base the InstaPy A
     * [Written guides](#written-guides)
 - [Support](#support)
 - [Credits](#credits)
+- [Disclaimer](#disclaimer)
 
 # InstaPY Quickstart
 
@@ -114,3 +115,7 @@ If you should encounter any issue, please first [search for similar issues](http
 This project exists thanks to all the people who contribute to timgrossmann's InstaPY. [[Contribute](https://github.com/timgrossmann/InstaPy/wiki/How-to-Contribute)].
 
 <a href="https://github.com/timgrossmann/InstaPy/graphs/contributors"><img src="https://opencollective.com/instapy/contributors.svg?width=890&button=false" /></a>
+
+---
+
+> **Disclaimer**<a name="disclaimer" />: Please Note that this is a research project. I am by no means responsible for any usage of this tool. Use on your own behalf. I'm also not responsible if your accounts get banned due to extensive use of this tool.
