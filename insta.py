@@ -21,7 +21,7 @@ insta_password = 'your-Instagram-Password'
 
 #### General Bot Settings
 # Limit of Follows
-follow_ammount_number = 500
+follow_ammount_number = 250
 
 # Follow by Tags
 follow_by_tags_list = ['bodybuilding', 'fitness', 'physique', 'freemasonry', 'freemasons']
@@ -40,8 +40,8 @@ ignore_list = ['boy', 'girl', 'kid', 'kids']
 # Array List of Instagram Users with similar content to yours that you want to follow their followers in order to get followbacks.
 accounts_to_find_followers = ['mrolympiallc', 'unitedgrandlodgeofengland']
 
-# Array List of friends to Whitelist. It will prevent commenting on and unfollowing those friends no matter if they do not follow you back. (the images will still be liked).
-whitelisted_users = ['friend1', 'friend2', 'friend3']
+# Array List of friends to Whitelist. It will prevent autocommenting on and unfollowing those friends no matter if they do not follow you back. (the images will still be liked).
+whitelisted_users = ['frozgr', 'friend2', 'friend3']
 
 # Array List of Hashtags NOT to like. Will skip the picture if one of those are included on the picture's hashtags.
 dont_likes = ['sex','nude','naked','beef','pork','seafood',
@@ -163,7 +163,7 @@ try:
                 session.story_by_users(story_by_users_list)
         
         # Unfollow Activity
-        session.unfollow_users(amount=random.randint(50,150), nonFollowers=True, style="RANDOM", unfollow_after=42 * 60 * 60, sleep_delay=300)
+        session.unfollow_users(amount=random.randint(50,150), nonFollowers=True, style="RANDOM", unfollow_after=42 * 60 * 60, sleep_delay=601)
 
         # Follow Activity - Massive Follow of followers from Instagram Users with similar content to yours.
         session.follow_user_followers(accounts_to_find_followers, amount=follow_ammount_number, randomize=False, interact=True, sleep_delay=240)
