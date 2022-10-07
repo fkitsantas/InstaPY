@@ -1,6 +1,6 @@
 <p align="center">
   <img src="https://i.imgur.com/sJzfZsL.jpg" width="154" /><img src="https://www.python.org/static/community_logos/python-powered-w-200x80.png" width="154" />
-  <h1 align="center">InstaPY by Nightmare.gr v0.1</h1>
+  <h1 align="center">InstaPY v0.1</h1>
   <p align="center">Tooling that <b>automates</b> your social media interactions to “farm” Likes, Comments, and Followers on Instagram
 Implemented in Python using the Selenium module and having as base the InstaPy API - Library from Tim Großmann (https://github.com/timgrossmann/InstaPy)<p>
   <p align="center">
